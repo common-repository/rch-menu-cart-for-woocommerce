@@ -1,0 +1,32 @@
+.rcodellc_cart_amount{
+   background: url("../images/shop_black.png") no-repeat;
+    background-size: contain;
+    bottom: 2px;
+    display: block;
+    height: 101px;
+    width: 115px;
+    padding-top: 5px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    z-index: 110;    
+    font-size: 13px!important;
+    font-weight: bold;
+}
+.rcodellc_cart_price{
+  position: relative;
+  top:80px;
+  left: 32px;
+  font-size: 14px;
+}
+.rcodellc_cart_amount a{
+  cursor: pointer;
+  text-decoration: none!important;
+  color: #FFFFFF!important;
+}
+.rcodellc_cart_amount .amount{
+  color: #000000!important;
+}
+.rcodellc_cart_amount a:hover{
+  color: #FFFFFF;
+}
